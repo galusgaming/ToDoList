@@ -2,7 +2,7 @@
 
 *Napisz program w języku Java, który pozwoli użytkownikowi tworzyć, przeglądać, modyfikować i usuwać zadania na liście "To-Do". Program powinien umożliwiać dodawanie zadań, oznaczanie zadań jako zakończone, usuwanie zadań i wyświetlanie listy zadań.*
 > [!TIP]
-### **_Wskazówki:_**
+## **_Wskazówki:_**
 
 
 * Utwórz klasę `ToDoList`, która będzie zawierała metodę:
