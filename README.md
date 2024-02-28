@@ -1,15 +1,20 @@
-***Zadanie: Zarządzanie Listą Zadań (To-Do List)***
+# ***Zadanie: Zarządzanie Listą Zadań (To-Do List)***
 
 *Napisz program w języku Java, który pozwoli użytkownikowi tworzyć, przeglądać, modyfikować i usuwać zadania na liście "To-Do". Program powinien umożliwiać dodawanie zadań, oznaczanie zadań jako zakończone, usuwanie zadań i wyświetlanie listy zadań.*
+> [!TIP]
+### **_Wskazówki:_**
 
-Wskazówki:
 
-**Utwórz klasę ToDoList, która będzie zawierała metodę public static void main(String[] args.**
-Użyj odpowiednich struktur danych, takich jak ArrayList lub LinkedList, do przechowywania zadań.
-Stwórz menu, które umożliwia użytkownikowi wybieranie operacji, takie jak dodawanie zadania, oznaczanie zadania jako zakończone, usuwanie zadania i wyświetlanie listy zadań.
-Każde zadanie na liście powinno zawierać nazwę, opis i flagę wskazującą, czy jest zakończone.
-Program powinien pozwalać użytkownikowi wykonywać te operacje aż do momentu, kiedy zdecyduje się wyjść z programu.
-Przykładowa sesja programu mogłaby wyglądać tak:
+* Utwórz klasę `ToDoList`, która będzie zawierała metodę:
+```java
+  public static void main(String[] args){...}
+```
+* Użyj odpowiednich struktur danych, takich jak `ArrayList` lub `LinkedList`, do przechowywania zadań.
+* Stwórz menu, które umożliwia użytkownikowi wybieranie operacji, takie jak dodawanie zadania, oznaczanie zadania jako zakończone, usuwanie zadania i wyświetlanie listy zadań.
+* Każde zadanie na liście powinno zawierać nazwę, opis i flagę wskazującą, czy jest zakończone.
+* Program powinien pozwalać użytkownikowi wykonywać te operacje aż do momentu, kiedy zdecyduje się wyjść z programu.
+* Przykładowa sesja programu mogłaby wyglądać tak:
+
 ```
 1. Dodaj nowe zadanie
 2. Oznacz zadanie jako zakończone
