@@ -38,4 +38,9 @@ public class ToDoList {
         }
         //wyświetla listę
     }
+    public void exit() {
+        System.out.println("Do zobaczenia!");
+        System.exit(0);
+        //wyjście z programu
+    }
 }
