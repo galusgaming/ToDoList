@@ -36,6 +36,7 @@ public class Main {
                     break;
                 case 5:
 //                    System.out.println("chuj");
+
                         exit = 1;
                     //wychodzi z programu
                     break;

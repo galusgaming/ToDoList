@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ToDoList {
     Scanner scan = new Scanner(System.in);
 
-    ArrayList<String> tasks = new ArrayList<String>();
+    ArrayList<String> tasks = new ArrayList<>();
     int nr = 1;
     public void addTask() {
         //Tworzy liste
@@ -30,11 +30,11 @@ public class ToDoList {
     }
     public void displayList() {
         if(!tasks.isEmpty()){
-        for (String task : tasks) {
-            System.out.println(task);
-            }
+        for (String task : tasks) System.out.println(task + "\n");
         }else {
-            System.out.println("Lista jest pusta");
+
+            System.out.println("Lista jest pusta\n");
+
         }
         //wyświetla listę
     }
